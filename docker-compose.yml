@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+    openaitg:
+        build: .
+        container_name: openaitg
+        image: openaitg
+        restart: always
+        stdin_open: true
+        tty: true
